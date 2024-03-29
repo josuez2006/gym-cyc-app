@@ -1,19 +1,18 @@
-import Header from "../../Components/Header"
+import Header from "./Header"
 import Navbar from "../../Components/Navbar"
 import SearchBar from "../../Components/SearchBar"
-import CashTransactions from "./CashTransactions"
-import NewMember from "./NewMember"
-import Stranger from "./Stranger"
+import Transactions from "./Transactions"
+import Registering from "./Registering"
+import PayingTheDay from "./PayingTheDay"
 
 function Home() {
   return (
     <>
-        <div className="container">
-          <Header />
-          <CashTransactions />
-          <SearchBar />
-          <NewMember />
-          <Stranger />
+        <div className="page | vertical-frame gap-32">
+            <Header />
+            <SearchBar />
+            <Registering />
+            <PayingTheDay />
         </div>
         <Navbar isHomeActive="true"/>
     </>

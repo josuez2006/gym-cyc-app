@@ -38,3 +38,40 @@
 }
 
 
+
+.frame, .vertical-frame {
+    display: flex;
+}
+
+.vertical-frame {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.y-centered {
+    align-items: center;
+}
+
+
+
+$spaces: (
+    '8': 8px,
+    '12': 12px,
+    '16': 16px,
+    '24': 24px,
+    '32': 32px,
+    '64': 64px
+);
+
+@each $key, $value in $spaces {
+    .gap-#{$key} {
+        gap: $value;
+    }
+}
+
+
+
