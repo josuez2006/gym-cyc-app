@@ -1,0 +1,21 @@
+.register, .register .content, .register .btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.register {
+    gap: 32px;
+
+    .content {
+        gap: 64px;
+    }
+
+    .btns {
+        gap: 16px;
+    }
+
+    .img {
+        max-width: fit-content;
+        object-fit: contain;
+    }
+}

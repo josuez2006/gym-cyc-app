@@ -1,0 +1,37 @@
+.navbar {
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    background-color: $clr-neutral-100;
+
+    .menu {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+    }
+
+    .menu__item {
+        display: grid;
+        justify-items: center;
+        gap: .5rem;
+        font-weight: $fw-medium;
+    }
+
+    .icon path {
+        fill: $clr-neutral-900;
+    }
+}
+
+.menu__item[aria-current=true] {
+    color: $clr-accent-400;
+    font-weight: 700;
+
+    .icon path {
+        fill: $clr-accent-400;
+    }
+}
+
+

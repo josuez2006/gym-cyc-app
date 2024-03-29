@@ -1,0 +1,40 @@
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.y-centered {
+    align-items: center;
+}
+
+.gap-sm {
+    gap: 1rem;
+}
+
+.container {
+    padding-inline: 2rem;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.push-down-8 {
+    margin-bottom: 8px;
+}
+
+.push-down-32 {
+    margin-bottom: 32px;
+}
+
+.full-screen {
+    min-height: 100vh;
+}
+
+

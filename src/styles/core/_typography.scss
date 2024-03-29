@@ -1,0 +1,30 @@
+$ff: 'Inter';
+
+$fs-heading: 32px;
+$fs-btn: 18px;
+$fs-body: 14px;
+
+$fw-regular: 400;
+$fw-medium: 500;
+
+body {
+    font-family: $ff;
+    font-size: $fs-body;
+    font-weight: $fw-regular;
+}
+
+.heading {
+    font-size: $fs-heading;
+    font-weight: $fw-regular;
+}
+
+.title {
+    font-size: $fs-btn;
+    font-weight: $fw-regular;
+}
+
+button {
+    font-size: $fs-btn;
+    font-weight: $fw-medium;
+}
+
