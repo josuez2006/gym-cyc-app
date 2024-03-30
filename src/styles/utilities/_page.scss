@@ -1,0 +1,13 @@
+.page {
+    padding: 2rem;
+    min-height: 100vh;
+
+    @extend .vertical-frame;
+}
+
+.page-full-screen {
+    padding: 2rem;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}

@@ -7,7 +7,7 @@ $fs-body: 14px;
 $fw-regular: 400;
 $fw-medium: 500;
 
-body {
+body, input {
     font-family: $ff;
     font-size: $fs-body;
     font-weight: $fw-regular;

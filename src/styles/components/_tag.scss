@@ -1,0 +1,11 @@
+.tag {
+    background: $clr-neutral-400;
+    padding: 12px 24px;
+    border-radius: 8px;
+
+    &[aria-current= true] {
+        background-color: $clr-accent-400;
+        color: white;
+
+    }
+}

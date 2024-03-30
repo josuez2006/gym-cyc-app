@@ -1,8 +1,16 @@
 .search-bar {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    padding: 1rem;
-    border: 1px solid $clr-neutral-400;
+    height: 58px;
+    width: 100%;
+    padding: 16px 16px 16px 50px; /* Sets the padding for the input field */
     border-radius: 8px;
+    border: 1px solid $clr-neutral-400;
+
+    background-image: url('../../../public/assets/icons/MagnifyingGlass.svg');
+    background-size: 26px;
+    background-position: 16px 16px; /* Adjusts the position of the background image */
+    background-repeat: no-repeat; 
+}
+
+.search-bar:focus {
+    outline: 2px solid $clr-accent-400;
 }
